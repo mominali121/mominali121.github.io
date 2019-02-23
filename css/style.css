@@ -1,0 +1,28 @@
+body{
+  background: #333;
+  color: #fff;
+}
+
+.navbar{
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+#header-section{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)) ,url('../img/home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#header-section .card{
+  opacity: .8;
+}
+
+#header-section .container{
+  padding-top: 150px; 
+}
+
+.fa-check{
+  border-radius: 5px;
+}
